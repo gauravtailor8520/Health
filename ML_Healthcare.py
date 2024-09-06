@@ -25,7 +25,7 @@ from sklearn.decomposition import PCA
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 start_time=time.time()  #Program Start time
 #Titles
-tit1,tit2 = st.beta_columns((4, 1))
+tit1, tit2 = st.columns((4, 1))
 tit1.markdown("<h1 style='text-align: center;'><u>Machine Learning in Healthcare</u> </h1>",unsafe_allow_html=True)
 tit2.image("healthcare2.png")
 st.sidebar.title("Dataset and Classifier")
