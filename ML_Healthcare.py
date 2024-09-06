@@ -202,7 +202,8 @@ def model():
 Y_pred,Y_test=model()
 
 #Plot Output
-def compute(Y_pred,Y_test):
+def compute(Y_pred, Y_test):
+    c1, c2 = st.columns((4, 3))
     #Plot PCA
     pca=PCA(2)
     X_projected = pca.fit_transform(X)
