@@ -216,7 +216,7 @@ def compute(Y_pred, Y_test):
     plt.colorbar()
     st.pyplot()
 
-    c1, c2 = st.beta_columns((4,3))
+    c1, c2 = st.columns((4, 3))
     #Output plot
     plt.figure(figsize=(12,6))
     plt.scatter(range(len(Y_pred)),Y_pred,color="yellow",lw=5,label="Predictions")
