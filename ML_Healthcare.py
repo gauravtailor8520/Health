@@ -67,7 +67,7 @@ X,Y=selected_dataset(dataset_name)
 
 #Plot output variable
 def plot_op(dataset_name):
-    col1, col2 = st.beta_columns((1, 5))
+    col1, col2 = st.columns((1, 5))
     plt.figure(figsize=(12, 3))
     plt.title("Classes in 'Y'")
     if dataset_name == "Heart Attack":
